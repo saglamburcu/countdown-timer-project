@@ -1,0 +1,68 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(215, 228, 240);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+}
+
+aside {
+  margin: 0 40px;
+  width: 550px;
+}
+
+aside h2 {
+  color: hsl(205, 72%, 37%);
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+aside h6 {
+  color: rgb(27, 27, 27);
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+aside h6+p {
+  color: hsl(209, 23%, 60%);
+  margin: 30px 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.boxes div {
+  background-color: hsl(209, 61%, 16%);
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
+
+.boxes div h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.boxes div p {
+  color: #fff;
+}
